@@ -90,7 +90,6 @@ collections:
         file: "src/settings/general.json"
         description: "General Site Settings"
         fields:
-          - {label: "Global title", name: "site_title", widget: "string"}
           - label: "Global"
             name: "global"
             widget: "object"
