@@ -90,6 +90,7 @@ collections:
         file: "src/settings/general.json"
         description: "General Site Settings"
         fields:
+          - {label: "ID (to query for)", name: "id", widget: "hidden", default: "general-settings"}
           - label: "Global"
             name: "global"
             widget: "object"
